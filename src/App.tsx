@@ -31,6 +31,7 @@ const App = () => {
 
   return (
     <div>
+      <h1 className="">Expense List</h1>
       <div className="mb-5">
         <ExpenseForm
           onSubmit={(expense) =>
